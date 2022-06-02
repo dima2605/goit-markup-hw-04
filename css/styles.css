@@ -228,6 +228,24 @@ p{
     background-color:var(--primary-background-color);
 }
 
+.benefits-icon{
+    /* display: block; */
+    display: flex;
+    width: 270px;
+    height: 120px;
+    border-radius: 4px;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 30px;
+   
+    background-color: var(--third-background-color)
+}
+
+.svg-benefits{
+    width: 70px;
+    height: 70px;
+}
+
 .section-list{
     display: flex;
 }
