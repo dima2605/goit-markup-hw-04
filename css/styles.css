@@ -51,7 +51,7 @@ p{
     margin: 0 auto;
     padding: 0 15px;
 
-    outline: 2px solid tomato;
+    /* outline: 2px solid tomato; */
 }
 
 .section {
@@ -345,7 +345,7 @@ p{
 .masters-soc-icon,
 .masters-soc-link:focus
 .masters-soc-icon {
-    fill: var(--white-text-color);
+    fill: var(--primary-background-color);
 }
 
 
@@ -473,6 +473,8 @@ p{
 
 
 /* -------------footer-------------- -----------------------------------------*/
+
+
 .group {
     padding-top: 60px;
     padding-bottom: 60px;
@@ -512,7 +514,66 @@ p{
 }
 
 .menu .home-link{
+    color: var(--primary-background-color);
+}
+
+.footer{
+    display: flex;
+    align-items: baseline;
+   
+}
+/* join */
+.join{
+    margin-left: 70px;
+  
+}
+
+.join-title{
+    font-weight: 700;
+    
+    margin-bottom: 20px;
+    line-height:1.14;
+    font-size: 14px;
+    text-transform: uppercase;
+    
     color: var(--white-text-color);
+}
+
+.join-list{
+    display: flex;
+    
+}
+
+.join-item{
+    width: 44px;
+    height: 44px;
+    margin-left: 10px;
+
+    border-radius: 50%;
+}
+
+.join-item:first-child{
+    margin-left: 0;
+}
+.join-link{
+    display: flex;
+    width: 100%;
+    height: 100%;
+
+    justify-content: center;
+    align-items: center;
+
+    background-color: rgba(255, 255, 255, 0.1);
+    border-radius: 50%;
+}
+
+.join-icon{
+    fill: var(--primary-background-color);
+}
+
+.join-link:hover,
+.join-link:focus {
+   background-color: var(--accent-color);
 }
 
 /* --------------portfolio------------------ */
