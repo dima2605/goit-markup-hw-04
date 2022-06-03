@@ -124,6 +124,17 @@ p{
 
 /* auth-nav */
 
+.link-icon{
+    display: flex;
+    align-items: center;
+}
+.auth-icon{
+    display: inline-block;
+    fill: currentColor;
+    margin-right: 10px;
+    justify-content: center;
+}
+
 .auth-nav{
     padding-top: 32px;
     padding-bottom: 32px;
@@ -139,6 +150,7 @@ p{
 .auth-nav .link {
     padding-top: 32px;
     padding-bottom: 32px;
+    
 
     color: var(--primary-text-color);
 }
