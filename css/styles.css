@@ -309,7 +309,7 @@ p{
     width: 44px;
     height: 44px;
     margin-left: 10px;
-    margin-bottom: 30px;
+    
 }
 
 .masters-soc-item:first-child{
@@ -319,6 +319,7 @@ p{
 .masters-soc-list{
     display: flex;
     justify-content: center;
+    padding-bottom: 30px;
 }
 
 .masters-soc-link{
@@ -399,7 +400,79 @@ p{
     text-align: center;
     color:var(--primary-text-color);
 }
-/* -------------footer-------------- */
+
+
+/* -----------------------clients---------------------------------------------- */
+.clients{
+    padding-top:19px;
+}
+
+.clients-title{
+    margin-bottom: 50px;
+   
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.17;
+    text-align: center;
+   
+    
+    color:var(--title-text-color);
+}
+.clients-list{
+    display: flex;
+    justify-content: center;
+    
+}
+.clients-item{
+    display: flex;
+    margin-left: 30px;
+   
+    width: 170px;
+    height: 92px;
+
+    align-items: center;
+    justify-content: center;
+}
+
+.clients-link{
+    display: flex;
+    width: 100%;
+    height: 100%;
+    
+    border: 1px solid var(--background-soc-icon);
+    border-radius: 4px;
+
+    justify-content: center;
+    align-items: center;
+    
+}
+.clients-item:first-child{
+    margin-left: 0;
+}
+.clients-icon{
+    fill:var(--background-soc-icon);
+}
+.clients-link:hover,
+.clients-link:focus{
+    border-color: var(--accent-color); 
+}
+
+.clients-link:hover .clients-icon,
+.clients-link:focus .clients-icon {
+    fill: var(--accent-color);
+}
+
+
+
+
+
+
+
+
+
+
+
+/* -------------footer-------------- -----------------------------------------*/
 .group {
     padding-top: 60px;
     padding-bottom: 60px;
